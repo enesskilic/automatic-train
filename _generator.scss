@@ -1,0 +1,34 @@
+@each $map in $utilities {
+
+  $class:     map-get($map, class);
+  $values:    map-get($map, values);
+  $property:  map-get($map, property);
+
+  @each $key, $value in $values {
+    
+    // for multiple properties
+    @if type-of($property == list) {
+
+      $properties: $property;
+
+      // create utility classes with all properties
+      .#{$class}-#{$key} { 
+
+        @each $property in $properties { 
+          #{$property}: $value 
+        }
+
+      }
+
+    }
+
+    // create utility classes
+    @else {
+
+      .#{$class}-#{$key} { $property: $value }
+
+    }
+
+  }
+
+}

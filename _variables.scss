@@ -1,0 +1,38 @@
+/*--------------------------------------*\
+
+    Table of contents
+        - Colors
+        - Font weights
+
+\*--------------------------------------*/
+
+
+
+
+/*--------------------------------------*\
+    Colors
+\*--------------------------------------*/
+$red:                 red;
+$blue:                blue;
+$green:               green;
+
+$colors: (
+  "red":                $red,
+  "blue":               $blue,
+  "green":              $green,
+);
+
+
+
+/*--------------------------------------*\
+    Font weights
+\*--------------------------------------*/
+$font-weight-light:     300;
+$font-weight-normal:    400;
+$font-weight-bold:      600;
+
+$font-weights: (
+    "light":            $font-weight-light,
+    "normal":           $font-weight-normal,
+    "bold":             $font-weight-bold
+)

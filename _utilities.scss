@@ -1,0 +1,16 @@
+$utilities: 
+            (
+                "class": text,
+                "property": color,
+                "values": $colors,
+            ),
+            (
+                "class": bg,
+                "property": background-color,
+                "values": $colors,
+            ),
+            (
+                "class": text,
+                "property": font-weight,
+                "values": $font-weights,
+            )
