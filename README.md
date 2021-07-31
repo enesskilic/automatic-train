@@ -8,7 +8,7 @@
 
 > Compile the **main.scss** file and link it to your file.
 
-### How to extend
+### How to expand
 
 >  **Step 1:** Add your new variables and maps to **_variables.scss** file.
 
