@@ -2,7 +2,9 @@
 
 ### Installation
 
-> $ git clone https://github.com/enesskilic/automatic-train.git
+```
+git clone https://github.com/enesskilic/automatic-train.git
+```
 
 ### Usage
 
